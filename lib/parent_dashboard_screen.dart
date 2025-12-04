@@ -12,7 +12,7 @@ class ParentDashboardApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: 'RobotoMono', // Close to the font used
+        fontFamily: 'RobotoMono', 
       ),
       home: ParentDashboardScreen(),
     );
@@ -32,7 +32,7 @@ class _ParentDashboardScreenState extends State<ParentDashboardScreen> {
   bool _ageAppropriateVocab = true;
 
   // Radio buttons for Modes
-  String _mode = 'Surprise Me Mode'; // or 'Offline Mode'
+  String _mode = 'Surprise Me Mode'; 
 
   // Story Theme Preferences checkboxes
   bool _animals = true;
